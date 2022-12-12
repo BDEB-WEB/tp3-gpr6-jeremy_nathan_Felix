@@ -110,12 +110,8 @@
   
   .imagemusee {
     width: 700px;
-    height: 500px;
+    height: auto;
     border-radius: 10px;
-    background-color: transparent;
-    background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
-    background-position: 0px 0px;
-    background-size: auto;
   }
   .image-2 {
     position: absolute;
@@ -150,7 +146,6 @@
 
   .imageap {
     border-radius: 8px;
-    background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
     background-position: 0px 0px;
     background-size: auto;
   }
@@ -175,9 +170,6 @@
     width: 700px;
     height: 500px;
     border-radius: 10px;
-    background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
-    background-position: 0px 0px;
-    background-size: auto;
   }
 
   .imageboutiaue {
@@ -210,7 +202,6 @@
   }
 
   .icon {
-    background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
     background-position: 0px 0px;
     background-size: contain;
   }
@@ -279,6 +270,7 @@
   .blocktextbutton {
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
 
   }
   .text-block {
@@ -422,14 +414,15 @@
 /* Buttons */
 
   .button {
-    border-radius: 0px;
-    background-color: transparent;
+    background-color: white;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
-    color: #fff;
+    color: black;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif; 
+    padding: 4px;
+    border-radius: 5px;
   }
   
   .button.w--current {
@@ -526,9 +519,7 @@
 
 .div-block-2 {
   border-radius: 8px;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
-  background-position: 0px 0px;
-  background-size: auto;
+
 }
 
 
@@ -987,12 +978,6 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-  }
-  
-  .plan-contact {
-    background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
-    background-position: 0px 0px;
-    background-size: auto;
   }
 
 

@@ -68,6 +68,19 @@
 
 
   /*Images */
+
+  .div-block-home-logo-text {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 50px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
   
   .image {
     position: absolute;
@@ -184,6 +197,12 @@
 
   /* Textes */
 
+
+  .blocktextbutton {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
   .text-block {
     color: #fff;
     font-size: 50px;
@@ -267,28 +286,16 @@
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
-  }
-  .button {
-    padding-right: 0px;
-    padding-left: 0px;
     color: #fff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif; 
   }
+  
 
   .button.w--current {
     margin-right: 50px;
   }
-  .button {
-    border-radius: 0px;
-    background-color: transparent;
-    font-weight: 700;
-    text-align: center;
-    text-transform: uppercase;
-  }
-
-  .button.w--current {
-    margin-right: 50px;
-  }
-
+  
   .button-2 {
     border-radius: 10px;
   }
@@ -418,8 +425,9 @@
   /* Paragraphes */
 
   .paragraph {
-    max-width: 758.515625px;
+    max-width: 750px;
   }
+  
   
   .paragraph-2 {
     max-width: 700px;
@@ -427,13 +435,8 @@
     font-size: 20px;
     line-height: 25px;
     font-weight: 400;
-  }
-
-
-  .paragraph-2 {
     display: block;
     max-width: 300px;
-    margin-bottom: 0px;
     margin-left: 50px;
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -443,6 +446,7 @@
     font-size: 20px;
     line-height: 22px;
     font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   .paragraph-3 {

@@ -106,7 +106,6 @@
     position: absolute;
     top: 0px;
     z-index: 10;
-    
   }
   
   .imagemusee {
@@ -119,7 +118,6 @@
     top: 0px;
     height: auto;
     max-height: 800px;
-    margin-top: 5%;
   }
 
   .image-3 {
@@ -228,9 +226,7 @@
   text-transform: uppercase;
 }
 
-
 /*  Heading  */ 
-
 .heading-2 {
   text-align: center;
 }
@@ -267,7 +263,6 @@
 }
 
   /* Textes */
-
 
   .blocktextbutton {
     color: #fff;

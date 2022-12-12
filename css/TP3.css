@@ -30,7 +30,7 @@
     background-image: url('../Assets/Muséesalleexterieur.png');
     background-position: 0px 0px;
     background-size: auto;
-    /*padding-left: 25%;*/
+    
   }
   .contact-body {
     display: -webkit-box;
@@ -118,6 +118,7 @@
     top: 0px;
     height: auto;
     max-height: 800px;
+    margin-top: 5%;
   }
 
   .image-3 {
@@ -214,6 +215,10 @@
   .image-8 {
     width: 100px;
     max-width: none;
+  }
+
+  .Video {
+    border-radius: 3%;
   }
 
  /*  Titres  */

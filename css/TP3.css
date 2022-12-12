@@ -27,7 +27,7 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+    background-image: url('../Assets/Muséesalleexterieur.png');
     background-position: 0px 0px;
     background-size: auto;
   }
@@ -61,10 +61,7 @@
   .bodysalles {
     background-color: #000;
   }
-  .body-a-propos {
-    background-color: #fff;
-  }
-
+ 
 
 
   /*Images */
@@ -89,20 +86,42 @@
   }
   
   .imagemusee {
+    width: 700px;
+    height: 500px;
     border-radius: 10px;
-
-
+    background-color: transparent;
+    background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+    background-position: 0px 0px;
+    background-size: auto;
   }
   .image-2 {
     position: absolute;
     top: 0px;
     height: auto;
-    max-height: 900px;
+    max-height: 800px;
   }
 
-  .imageapropos {
-    width: 500px;
-    height: 250px;
+  .image-3 {
+    max-width: 200px;
+  }
+
+  .image-4 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .image-vert {
+    border-radius: 10px;
+  }
+
+  img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+  }
+
+  .imageap {
+    border-radius: 8px;
     background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
     background-position: 0px 0px;
     background-size: auto;
@@ -123,14 +142,14 @@
     align-items: center;
   }
   
-  
-
-  
 
   .imageapropos {
     width: 700px;
     height: 500px;
     border-radius: 10px;
+    background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+    background-position: 0px 0px;
+    background-size: auto;
   }
 
   .imageboutiaue {
@@ -190,6 +209,13 @@
 }
 
 .heading-4 {
+  text-align: center;
+}
+
+.heading-5 {
+  color: #a0a0a0;
+  font-size: 30px;
+  line-height: 32px;
   text-align: center;
 }
 
@@ -273,10 +299,73 @@
     border-radius: 10px;
   }
 
-  
+  .textbloclnal {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
 
-  
-  
+  .lobjetif {
+    max-width: 250px;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: #2e2e2e;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 800;
+    text-align: center;
+  }
+
+  .apdn-text-bloc {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto;
+    min-height: 200px;
+    margin-top: 50px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #383838;
+  }
+
+  .txt-apdn {
+    max-width: 150px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ebebeb;
+    line-height: 16px;
+    font-weight: 700;
+    text-align: left;
+  }
+
+
+ 
 
 /* Buttons */
 
@@ -352,7 +441,17 @@
     align-items: center;
   }
 
-
+  .w-button {
+    display: inline-block;
+    padding: 9px 15px;
+    background-color: #4a4b4d;
+    color: white;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10;
+  }
 
 /* Blocs */
 
@@ -381,9 +480,7 @@
   background-size: auto;
 }
 
-.div-block-3 {
-  background-color: #494949;
-}
+
 
 .div-block-3 {
   display: -webkit-box;
@@ -398,6 +495,7 @@
   -ms-flex-align: center;
   align-items: center;
   border-radius: 8px;
+  background-color: #494949;
 }
 
 
@@ -598,17 +696,18 @@
 
 
 
-  .le-projet {
-    border-radius: 10px;
-  }
+
   
   .le-projet {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    height: 500px;
-    min-width: 500px;
+    height: 200px;
+    max-width: 100%;
+    min-width: 150px;
+    margin-bottom: 0px;
+    padding: 50px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -621,9 +720,39 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: #202020;
+    background-color: rgba(32, 32, 32, 0);
+    font-family: 'Open Sans', sans-serif;
+    color: #6e6e6e;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 10px;
   }
 
+  .le-projet-bloc {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    min-height: 700px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #1d1d1d;
+  }
 
   .apropos-de-nous-cases {
     display: -webkit-box;
@@ -639,7 +768,7 @@
   }
 
 
-/* Colones */
+/* Colonnes */
 
   .columns {
     display: -webkit-box;
@@ -735,6 +864,22 @@
     -ms-flex-align: stretch;
     align-items: stretch;
   }
+
+  .colonnes-sections-ap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  
+  .colonne {
+    width: 50%;
+    margin: 50px;
+  }
   
 /* UI */ 
 
@@ -763,8 +908,29 @@
     }
   }
   
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
 
-  
+  .apdp-text-bloc {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 50px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #cecece;
+  }
   
   .tabs {
     width: 100%;
@@ -813,30 +979,30 @@
     
 
 
-    .la-nature-a-lhonneur {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      height: 500px;
-      max-width: 500px;
-      min-width: 500px;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-      flex-direction: column;
-      -webkit-justify-content: space-around;
-      -ms-flex-pack: distribute;
-      justify-content: space-around;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-      -ms-flex-align: center;
-      align-items: center;
-      border-radius: 10px;
-      background-color: #afafaf;
-      color: #d6d6d6;
-    }
+  .la-nature-a-lhonneur {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    min-height: 700px;
+    min-width: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    color: #d6d6d6;
+  }
   
   
   /* Utility */
@@ -963,10 +1129,6 @@
 }
 
 .section-a-propos-du-projet wf-section{
-    
-}
-
-.textbloclnal{
     
 }
 

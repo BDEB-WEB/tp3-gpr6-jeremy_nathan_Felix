@@ -310,6 +310,7 @@ body::-webkit-scrollbar-button {
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 10px;
+    margin-left: 20%;
 
   }
   .text-block {
@@ -745,6 +746,10 @@ body::-webkit-scrollbar-button {
   background-color: #ff8400;
 }
   /* Paragraphes */
+
+  .paragraph-passé {
+    width: 250px;
+  }
 
   .paragraph {
     max-width: 750px;

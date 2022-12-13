@@ -851,6 +851,11 @@ body::-webkit-scrollbar-button {
 
   
   /* Sections */
+
+  .boutton-selection-des-trois-pages {
+
+    padding-left: 50px;
+  }
  
   .sectionnormandie {
     display: -webkit-box;
@@ -1155,6 +1160,8 @@ body::-webkit-scrollbar-button {
 /* UI */ 
 
   .navbar {
+    padding-left: 50px;
+    padding-right: 50px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;

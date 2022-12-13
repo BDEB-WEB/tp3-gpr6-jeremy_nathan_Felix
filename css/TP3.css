@@ -537,6 +537,8 @@ body::-webkit-scrollbar-button {
     border-radius: 10;
   }
 
+
+
 /* Blocs */
 
 .div-block {
@@ -769,6 +771,7 @@ body::-webkit-scrollbar-button {
     max-width: 250px;
     color: #d6d6d6;
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100%;
   }
   
 

@@ -125,6 +125,7 @@ body::-webkit-scrollbar-button {
     width: 700px;
     height: auto;
     border-radius: 10px;
+    margin:50px;
   }
   .image-2 {
     position: absolute;
@@ -454,6 +455,7 @@ body::-webkit-scrollbar-button {
 /* Buttons */
 
   .button {
+    z-index: 11;
     background-color: rgb(0, 60, 255);
     font-weight: 700;
     font-size: 15px;
@@ -1352,6 +1354,12 @@ body::-webkit-scrollbar-button {
   .link-2 {
     color: #000;
   }
+
+  .audio {
+    width: 945px;
+    margin: 50px;
+  }
+
 
   
 

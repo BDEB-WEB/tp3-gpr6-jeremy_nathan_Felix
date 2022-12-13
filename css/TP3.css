@@ -453,16 +453,20 @@ body::-webkit-scrollbar-button {
 /* Buttons */
 
   .button {
-    background-color: white;
+    background-color: rgb(0, 60, 255);
     font-weight: 700;
+    font-size: 15px;
     text-align: center;
     text-transform: uppercase;
-    color: black;
+    color: rgb(230, 230, 230);
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif; 
-    padding: 4px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 5px;
+    padding-left: 5px;
     border-radius: 5px;
-    color: transparent;
+  
   }
   
   .button.w--current {
@@ -768,6 +772,7 @@ body::-webkit-scrollbar-button {
   }
 
   .paragraph-3 {
+    padding-bottom: 10px;
     max-width: 250px;
     color: #d6d6d6;
     font-family: Arial, Helvetica, sans-serif;
@@ -803,6 +808,8 @@ body::-webkit-scrollbar-button {
     font-size: 38px;
     line-height: 44px;
     margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
   }
   h2 {
     font-size: 32px;
@@ -832,6 +839,8 @@ body::-webkit-scrollbar-button {
   p {
     margin-top: 30;
     margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
   }
   
 

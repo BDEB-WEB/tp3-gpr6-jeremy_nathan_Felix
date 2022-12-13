@@ -1,6 +1,19 @@
+body::-webkit-scrollbar {
+  background-color: rgb(0, 0, 0);
+  width: 10px;
+}
+body::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #88888893;
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-button {
+  display:none;
+}
 
-/* Style des bodys */
-
+/* Style des body */
 .body-home-page {
     display: block;
     -webkit-box-pack: center;
